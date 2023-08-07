@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🥗 Recipe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="headerContainer">
+        <a
+          href="./index.html"
+          style="
+            text-decoration: none;
+            font-size: xxx-large;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          🥗 Recipe
+        </a>
+        <div
+          style="display: flex; flex-direction: column; justify-content: center"
+        >
+          <nav class="topnav" id="myTopnav">
+            <a href="breakfast.html">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+            <a href="salad.html">Salad</a>
+            <a href="drink.html">Drink</a>
+            <a href="about.html">About</a>
+
+            <button class="hamburger" onclick="myFunction()">
+              <!-- material icons https://material.io/resources/icons/ -->
+              <i class="menuIcon material-icons">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  width="48px"
+                  fill="#FFFFFF"
+                >
+                  <path d="M0 0p4v24H0z" fill="none" />
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+              </i>
+              <i class="closeIcon material-icons">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  width="48px"
+                  fill="#FFFFFF"
+                >
+                  <path d="M0 0p4v24H0z" fill="none" />
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+              </i>
+            </button>
+          </nav>
+
+          <ul class="menu">
+            <li><a class="menuItem" href="breakfast.html">Breakfast</a></li>
+            <li><a class="menuItem" href="lunch.html">Lunch</a></li>
+            <li><a class="menuItem" href="dinner.html">Dinner</a></li>
+            <li><a class="menuItem" href="drink.html">Drink</a></li>
+            <li><a class="menuItem" href="salad.html">Salad</a></li>
+            <li><a class="menuItem" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div
+    style="
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 1%;
+    "
+  >
+    <a href="./index.html" id="goBackBtn">↩</a>
+    <div
+        style="
+          display: flex;
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+          flex-direction: column;
+          font-size: 40px;
+          text-decoration: underline;
+        "
+      >
+        Salad
+      </div>
+  </div>
+    <div id="body">
+      <div id="body-content">
+        <div id="recipes">
+         
+          
+          <div class="card">
+            <img
+              src="https://www.allrecipes.com/thmb/JinyDdyciYyLFjlLvXNqrnJ9jsM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8499-basic-chicken-salad-DDMFS-4x3-1edf4d259ac9437da114bdcee84337ee.jpg"
+              alt="Resep"
+            />
+            <div class="content">
+              <p class="title">Chicken Salad</p>
+              <div id="description">
+                <div id="mins">⏲ 10 mins</div>
+                <div id="serving">🍕 2 serving</div>
+              </div>
+              <div>
+                This chicken salad recipe is the best and a family favorite! I
+                like to use leftover roast chicken or baked chicken breasts that
+                have been sprinkled with basil or rosemary.
+              </div>
+            </div>
+            <a id="viewRecipe" href="chicken-salad.html">View Recipe</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__addr">
+          <h1>Recipe</h1>
+
+          <p>Contact</p>
+
+          <address>
+            5534 Somewhere In. The World 22193-10212<br />
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <p class="nav__title">Categories</p>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Breakfasts</a>
+              </li>
+
+              <li>
+                <a href="#">Lunchs</a>
+              </li>
+
+              <li>
+                <a href="#">Salads</a>
+              </li>
+
+              <li>
+                <a href="#">Drinks</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <p class="nav__title">Legal</p>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="legal">
+          <p>&copy; 2023 Recipe. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

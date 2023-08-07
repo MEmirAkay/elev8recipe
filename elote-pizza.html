@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🥗 Recipe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="headerContainer">
+        <a
+          href="./index.html"
+          style="
+            text-decoration: none;
+            font-size: xxx-large;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
+          🥗 Recipe
+        </a>
+        <div
+          style="display: flex; flex-direction: column; justify-content: center"
+        >
+          <nav class="topnav" id="myTopnav">
+            <a href="breakfast.html">Breakfast</a>
+            <a href="lunch.html">Lunch</a>
+            <a href="dinner.html">Dinner</a>
+            <a href="salad.html">Salad</a>
+            <a href="drink.html">Drink</a>
+            <a href="about.html">About</a>
+
+            <button class="hamburger" onclick="myFunction()">
+              <!-- material icons https://material.io/resources/icons/ -->
+              <i class="menuIcon material-icons">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  width="48px"
+                  fill="#FFFFFF"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+              </i>
+              <i class="closeIcon material-icons">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48px"
+                  viewBox="0 0 24 24"
+                  width="48px"
+                  fill="#FFFFFF"
+                >
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+              </i>
+            </button>
+          </nav>
+
+          <ul class="menu">
+            <li><a class="menuItem" href="breakfast.html">Breakfast</a></li>
+            <li><a class="menuItem" href="lunch.html">Lunch</a></li>
+            <li><a class="menuItem" href="dinner.html">Dinner</a></li>
+            <li><a class="menuItem" href="drink.html">Drink</a></li>
+            <li><a class="menuItem" href="salad.html">Salad</a></li>
+            <li><a class="menuItem" href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+      "
+    >
+      <a href="./index.html" id="goBackBtn">↩</a>
+      <div
+        style="
+          display: flex;
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+          flex-direction: column;
+          font-size: 40px;
+          text-decoration: underline;
+        "
+      >
+        Elote Pizza
+      </div>
+    </div>
+    <div id="body">
+      <div id="body-content">
+        <div class="row">
+          <div id="recipe-container">
+            <div id="recipe-image-container">
+              <img
+                src="https://www.allrecipes.com/thmb/l8WjoJ8Fzn2bHtVjDU7RQ73xJsQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7568835_Elote-Pizza_TheDailyGourmet_4x3-4f3478a9be554319804f91099b8a3c31.jpg"
+                alt="image"
+              />
+            </div>
+            <div id="recipe-short-info">
+              <div>⏲ 26 mins</div>
+              <div>🍕 4 serving</div>
+            </div>
+            <div id="recipe-ingredients">
+              <h1>Ingredients</h1>
+              <ul>
+                <li>1 pound prepared pizza dough</li>
+                <li>2 teaspoons olive oil, or as needed</li>
+                <li>2 tablespoons sour cream, plus more for drizzling</li>
+                <li>2 tablespoons mayonnaise</li>
+                <li>
+                  2 teaspoons chili lime seasoning, such as Tajin® Clasico,
+                  divided
+                </li>
+                <li>1/4 cup crumbled cotija cheese</li>
+                <li>1/4 cup shredded quesadilla cheese</li>
+                <li>1/2 cup corn kernels</li>
+                <li>1/4 red onion, very thinly sliced</li>
+                <li>2 tablespoons chopped cilantro</li>
+                <li>1 jalapeno, very thinly sliced, or more to taste</li>
+                <li>2 teaspoons melted butter</li>
+              </ul>
+            </div>
+            <div id="recipe-directions">
+              <h1>Directions</h1>
+              <ol>
+                <li>
+                  Preheat a gas grill with all burners on High for 10 to 15
+                  minutes. Shape pizza dough and brush with olive oil.
+                </li>
+                <li>
+                  Reduce the flame on half of the grill burners to Low, to
+                  create areas of direct and indirect heat.
+                </li>
+                <li>
+                  Carefully place dough (olive oil side facing down) onto the
+                  grill over direct heat Close the cover. Let dough grill until
+                  the bottom is just barely cooked and shows char marks, 1 to 3
+                  minutes.
+                </li>
+                <li>
+                  Use tongs to move dough to the indirect heat; do not flip
+                  dough over! Cook 2 to 3 more minutes. Remove dough to a baking
+                  sheet.
+                </li>
+                <li>
+                  Stir together 2 tablespoons sour cream, mayonnaise, and 1 1/2
+                  teaspoons Tajin seasoning. Spread sour cream mixture over
+                  dough. Mix remaining Tajin, cotija, quesadilla cheese, corn,
+                  and red onions. Distribute topping mixture over dough.
+                </li>
+                <li>
+                  Return pizza to grill. Grill until cheese is melted, about 3
+                  minutes. Carefully remove pizza from the grill. Scatter
+                  cilantro and jalapeños over pizza, and drizzle with additional
+                  sour cream. Mix melted butter with remaining 1/2 teaspoon
+                  Tajin seasoning and brush crust with Tajin butter. Cut into
+                  wedges and serve.
+                </li>
+                
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__addr">
+          <h1>Recipe</h1>
+
+          <h2>Contact</h2>
+
+          <address>
+            5534 Somewhere In. The World 22193-10212<br />
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Categories</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Breakfasts</a>
+              </li>
+
+              <li>
+                <a href="#">Lunchs</a>
+              </li>
+
+              <li>
+                <a href="#">Salads</a>
+              </li>
+
+              <li>
+                <a href="#">Drinks</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="legal">
+          <p>&copy; 2023 Recipe. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
